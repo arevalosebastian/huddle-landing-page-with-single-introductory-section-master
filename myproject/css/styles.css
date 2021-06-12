@@ -1,0 +1,110 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+
+    /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    font-family: 'Open Sans', sans-serif; */
+
+    background-image: url(/myproject/assets/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+.header{
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.header img{
+    height: 300px;
+    width: 300px;
+}
+
+img.logo{
+    height: 140px;
+    width: 140px;
+    margin-left: 32px;
+}
+
+img.banner{
+    margin: auto;
+    height: 280px;
+    width: 280px;
+}
+
+.body{
+    width: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.subtitle{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+.button{
+    background-color: #fff;
+    width: 60%;
+    height: 12%;
+    border-radius: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 0 5px 10px 1px hsl(257, 49%, 36%);
+}
+
+.button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    box-shadow: 0 5px 10px 1px hsl(257, 49%, 36%);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 30px;
+    margin-left: -33px;
+    list-style: none;
+}
+
+.social-icons__item{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.social-icons__item:hover{
+    border: 1px solid hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%)
+}
+
+.attribution a{
+    color: white;
+}
