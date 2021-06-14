@@ -106,5 +106,83 @@ img.banner{
 }
 
 .attribution a{
-    color: white;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px){
+    *{
+        margin: 0;
+    }
+
+    body{
+        max-width: 1440px;
+        height: 100vh;
+        overflow: hidden;
+        background-image: url(/myproject/assets/images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .desktop-box{
+        display: flex;
+        height: 90%;
+    }
+
+    .header{
+        margin: 0;
+        width: 60%;
+        height: 100%;
+    }
+
+    img.logo{
+        margin-left: 60px;
+    }
+
+    img.banner{
+        height: 450px;
+        width: 85%;
+    }
+
+    .body{
+        width: 40%;
+        text-align: left;
+        height: 100%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .title{
+        min-width: 300px;
+        height: 18%;
+        font-size: 2.5em;
+        margin-bottom: 2%;
+    }
+
+    .subtitle{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+    .subtitle br{
+        display: none;
+    }
+
+    .button{
+        width: 35%;
+        height: 8%;
+    }
+
+    .social-icons{
+        width: 100%;
+        justify-content: flex-end;
+        margin-bottom: 15px;
+    }
+
+    .social-icons__item:last-child{
+        margin-right: 50px
+    }
+
+    .social-icons__item{
+        margin-right: 15px;
+    }
 }
