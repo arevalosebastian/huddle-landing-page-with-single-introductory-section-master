@@ -185,4 +185,8 @@ img.banner{
     .social-icons__item{
         margin-right: 15px;
     }
+
+    .attribution a{
+        color: #fff;
+    }
 }
