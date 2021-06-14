@@ -7,7 +7,7 @@ body{
     /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
     font-family: 'Open Sans', sans-serif; */
 
-    background-image: url(/myproject/assets/images/bg-mobile.svg);
+    background-image: url(/huddle-landing-page-with-single-introductory-section-master/myproject/assets/images/bg-mobile.svg);
     background-repeat: no-repeat;
 }
 
@@ -118,7 +118,7 @@ img.banner{
         max-width: 1440px;
         height: 100vh;
         overflow: hidden;
-        background-image: url(/myproject/assets/images/bg-desktop.svg);
+        background-image: url(/huddle-landing-page-with-single-introductory-section-master/myproject/assets/images/bg-desktop.svg);
         background-repeat: no-repeat;
         background-size: contain;
     }
